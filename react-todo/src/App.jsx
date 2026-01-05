@@ -6,6 +6,7 @@ const Main = () => {
     return (
         <>
             <Header />
+            <h1 style={{ color: "red" }}>表示テスト</h1>
         </>
     );
 };
