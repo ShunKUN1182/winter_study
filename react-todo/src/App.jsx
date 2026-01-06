@@ -1,15 +1,15 @@
 import { useState } from "react";
 import "./index.css";
 import Header from "./components/Header";
-import TaskSeatch from "./components/TaskSeatch";
 import Tasks from "./components/Tasks";
+import Footer from "./components/Footer";
 
 const Main = () => {
     return (
         <>
             <Header />
-            <TaskSeatch />
             <Tasks />
+            <Footer />
         </>
     );
 };
