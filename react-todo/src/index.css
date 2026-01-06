@@ -11,6 +11,10 @@
     --pickup-text: 24px;
 }
 
+html {
+    font-family: "Roboto", sans-serif;
+}
+
 .header {
     margin: 30px 20px 0;
     display: flex;
@@ -18,8 +22,7 @@
     h1 {
         color: var(--main-color);
         font-size: var(--pickup-text);
-        font-family: "Roboto", sans-serif;
-        font-weight: bold;
+        font-weight: 750;
     }
     .border {
         margin-top: 3px;
@@ -58,6 +61,59 @@
             height: 20px;
             margin-left: 8px;
             margin-bottom: 4px;
+        }
+    }
+}
+
+.todo_lists {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    .todo_list {
+        height: 50px;
+        margin: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 8px;
+        border-bottom: var(--search-box-inner) 1px solid;
+        .task_name {
+            h2 {
+                font-size: var(--todo-h1);
+            }
+            .tags {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                span {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 60px;
+                    height: 16px;
+                    border-radius: 5px;
+                    color: var(--white-color);
+                    font-size: var(--text);
+                }
+                .task_tag {
+                    background-color: var(--base-color);
+                }
+                .event_tag {
+                    background-color: var(--main-color);
+                }
+                .others_tag {
+                    background-color: var(--accent-color);
+                }
+            }
+        }
+        .task_check {
+            width: 30px;
+            height: 30px;
+            margin-right: 14px;
+            input {
+                width: 100%;
+                height: 100%;
+            }
         }
     }
 }
