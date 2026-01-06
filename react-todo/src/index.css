@@ -1,0 +1,15 @@
+:root {
+    --base-color: #315098;
+    --main-color: #2e59f3;
+    --accent-color: #7bb6e4;
+    --todo-h1: 16px;
+    --text: 12px;
+    --pickup-text: 24px;
+}
+
+.header {
+    h1 {
+        color: var(--main-color);
+        font-size: var(--pickup-text);
+    }
+}
