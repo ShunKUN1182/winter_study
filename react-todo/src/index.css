@@ -2,14 +2,35 @@
     --base-color: #315098;
     --main-color: #2e59f3;
     --accent-color: #7bb6e4;
+    --search-box: #ebebeb;
+    --search-box-inner: #888888;
+    --white-color: #fefefe;
+    --block-color: #333333;
     --todo-h1: 16px;
     --text: 12px;
     --pickup-text: 24px;
 }
 
 .header {
+    margin: 30px 20px 0;
+    display: flex;
+    justify-content: space-between;
     h1 {
         color: var(--main-color);
         font-size: var(--pickup-text);
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+    }
+    .border {
+        margin-top: 3px;
+        width: 30px;
+        height: 20px;
+        border-top: 1px solid var(--search-box-inner);
+        border-bottom: 1px solid var(--search-box-inner);
+        p {
+            width: 100%;
+            height: 50%;
+            border-bottom: 1px solid var(--search-box-inner);
+        }
     }
 }
