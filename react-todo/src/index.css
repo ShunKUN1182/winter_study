@@ -132,4 +132,9 @@ html {
     width: 100vw;
     height: 60px;
     background-color: var(--base-color);
+    span {
+        width: 38px;
+        height: 38px;
+        color: var(--white-color);
+    }
 }
