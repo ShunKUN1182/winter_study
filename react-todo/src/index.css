@@ -67,6 +67,7 @@ html {
                 height: 20px;
                 margin-left: 8px;
                 margin-bottom: 4px;
+                color: var(--search-box-inner);
             }
         }
     }
@@ -132,9 +133,9 @@ html {
     width: 100vw;
     height: 60px;
     background-color: var(--base-color);
-    span {
-        width: 38px;
-        height: 38px;
-        color: var(--white-color);
+    button {
+        width: 100%;
+        height: 100%;
+        cursor: grab;
     }
 }

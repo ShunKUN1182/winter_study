@@ -10,7 +10,7 @@ const Header = () => {
             <div className="search-task">
                 <label htmlFor="search-task">
                     <span class="material-symbols-outlined">search</span>
-                    <input type="text" />
+                    <input type="text" placeholder="タスクを検索" />
                 </label>
             </div>
         </div>
